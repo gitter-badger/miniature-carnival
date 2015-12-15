@@ -16,4 +16,9 @@ class UserTest < ActiveSupport::TestCase
     assert_not user.save
   end
 
+  test 'should not save a use with no type' do
+    user = User.new password: 'pass', email: 'something@somewhere.com'
+    assert_not user.save
+  end
+
 end
