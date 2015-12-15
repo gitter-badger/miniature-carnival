@@ -1,8 +1,6 @@
 source 'https://rubygems.org'
 
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -45,3 +43,8 @@ group :development do
   gem 'spring'
 end
 
+gem 'rails', github: 'rails', branch: '4-2-stable'
+gem 'pry', github: 'pry'
+gem 'haml-rails', '~> 0.9'
+gem 'thin', github: 'macournoyer/thin'
+gem 'mysql2', github: 'brianmario/mysql2'
