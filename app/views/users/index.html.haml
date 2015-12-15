@@ -1,0 +1,13 @@
+%p Our users of the day:
+%table
+  %tbody
+    %tr
+      %th email
+      %th password (oh yea)
+      %th type
+    - @users.each do |user|
+      %tr
+        %td= user.email
+        %td= user.password
+        %td= user.type
+
