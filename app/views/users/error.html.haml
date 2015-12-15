@@ -1,0 +1,8 @@
+%p.error
+  There were some errors registering:
+%ul
+  - @errors.each do |message|
+    %li= message
+
+%p
+  = link_to 'try again', new_user_path
