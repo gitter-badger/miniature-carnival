@@ -1,5 +1,7 @@
 # Notes
 
+[![Join the chat at https://gitter.im/mouchtaris/miniature-carnival](https://badges.gitter.im/mouchtaris/miniature-carnival.svg)](https://gitter.im/mouchtaris/miniature-carnival?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 * Auto-incremented ID is supposedly provided by ActiveRecord itself and
   we wouldn't need to add it to the model.
 
